@@ -11,7 +11,7 @@ The following **required** functionality is completed:
 - [X] User can **sign in to Twitter** using OAuth login
 - [X]	User can **view tweets from their home timeline**
   - [X] User is displayed the username, name, and body for each tweet
-  - [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
+  - [X] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
 - [X] User can refresh tweets timeline by pulling down to refresh
 
 The following **optional** features are implemented:
@@ -19,7 +19,7 @@ The following **optional** features are implemented:
 - [X] User can view more tweets as they scroll with infinite pagination
 - [ ] Improve the user interface and theme the app to feel "twitter branded"
 - [ ] Links in tweets are clickable and will launch the web browser
-- [ ] User can tap a tweet to display a "detailed" view of that tweet
+- [X] User can tap a tweet to display a "detailed" view of that tweet
 - [ ] User can see embedded image media within the tweet detail view
 - [ ] User can watch embedded video within the tweet
 - [ ] User can open the twitter app offline and see last loaded tweets
@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://submissions.us-east-1.linodeobjects.com/android_university/gAL4pZxU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/krishnakhadka200416/SimpleTweet/blob/master/app/twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -48,7 +48,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Krishna Khadka]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
