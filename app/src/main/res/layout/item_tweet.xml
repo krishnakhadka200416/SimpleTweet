@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+   >
 
     <ImageView
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:autoLink="all"
+        android:linksClickable="true"/>
 
     <TextView
         android:id="@+id/tvScreenName"
@@ -23,7 +26,10 @@
         android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:text="krishna200416"
-        android:textStyle="bold" />
+        android:textColor="#0E0E0E"
+        android:textStyle="bold"
+        android:autoLink="all"
+        android:linksClickable="true"/>
 
     <TextView
         android:id="@+id/tvBody"
@@ -34,5 +40,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="This is my tweet" />
+        android:text="This is my tweet"
+        android:autoLink="all"
+        android:linksClickable="true"/>
 </RelativeLayout>
