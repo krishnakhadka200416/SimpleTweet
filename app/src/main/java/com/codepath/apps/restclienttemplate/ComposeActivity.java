@@ -39,6 +39,7 @@ public class ComposeActivity extends AppCompatActivity {
         btnTweet =findViewById(R.id.buttontweet);
         client = TwitterApp.getRestClient(this);
         //Set on click listener on btn
+
         btnTweet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

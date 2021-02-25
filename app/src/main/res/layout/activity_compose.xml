@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ComposeActivity">
-
     <EditText
         android:id="@+id/etCompose"
         android:layout_width="match_parent"
@@ -16,6 +15,7 @@
         android:layout_marginBottom="5dp"
         android:ems="10"
         android:gravity="start|top"
+        android:maxLength="250"
         android:hint="What's popping?"
         android:inputType="textMultiLine"
         android:minLines="5" />
