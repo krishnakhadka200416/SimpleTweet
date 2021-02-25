@@ -1,5 +1,6 @@
 package com.codepath.apps.restclienttemplate;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -30,7 +31,10 @@ public class ComposeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compose);
-
+        ActionBar actionBarr = getSupportActionBar();
+        actionBarr.setDisplayShowHomeEnabled(true);
+        actionBarr.setLogo(R.drawable.ic_baseline_favorite_border_24);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
         etCompose = findViewById(R.id.etCompose);
         btnTweet =findViewById(R.id.buttontweet);
         client = TwitterApp.getRestClient(this);

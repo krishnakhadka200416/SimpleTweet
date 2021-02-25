@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -40,6 +41,11 @@ public class TimelineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
+
+        ActionBar actionBarr = getSupportActionBar();
+        actionBarr.setDisplayShowHomeEnabled(true);
+        actionBarr.setLogo(R.drawable.ic_baseline_favorite_border_24);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
 
          clinet = TwitterApp.getRestClient(this);
         swipeContainer = findViewById(R.id.swipeContainer);
